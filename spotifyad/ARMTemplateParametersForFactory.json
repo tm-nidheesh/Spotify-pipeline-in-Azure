@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "spotifyad"
+		},
+		"AzureDataLakeLS_accountKey": {
+			"value": ""
+		},
+		"AzureSqlLS_password": {
+			"value": ""
+		},
+		"AzureDataLakeLS_properties_typeProperties_url": {
+			"value": "https://storagespotifynew.dfs.core.windows.net/"
+		},
+		"AzureSqlLS_properties_typeProperties_server": {
+			"value": "spotifyserv.database.windows.net"
+		},
+		"AzureSqlLS_properties_typeProperties_database": {
+			"value": "spotifyDB"
+		},
+		"AzureSqlLS_properties_typeProperties_userName": {
+			"value": "spotifyadmin"
+		}
+	}
+}
